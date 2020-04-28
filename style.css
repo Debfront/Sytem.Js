@@ -1,0 +1,58 @@
+body {
+    margin:0;
+    background: #e5e5e5;
+    color: #25282b;
+    
+}
+
+#container {
+    display: flex;
+    width: 90%;
+    max-width: 980px;
+    margin: 40px auto;
+    
+}
+
+#intro {
+    width: 300px;
+    margin-right: 22px;
+}
+
+main{
+    margin: 32px 0;
+    
+}
+
+#buttons {
+    display: flex;
+    margin-bottom: 32px;
+    justify-content: space-evenly;
+}
+button {
+    background: none;
+    color: #ff5384;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+.fat {
+    color: white;
+    background: #ff5384;
+}
+
+footer {
+    text-align: center;
+}
+footer a {
+    color: #25282b;
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
