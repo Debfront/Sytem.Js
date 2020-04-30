@@ -111,3 +111,62 @@ footer a{
 .idea .description{
     margin: 16px 0;
 }
+
+/* Modal */
+
+#modal {
+    background: #ff5384;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height:100vh;
+    justify-content: center;
+    display: flex;
+ 
+}
+
+#modal .content{
+    margin-top: 0px;
+    color: #ffffff;
+}
+
+#modal .content h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content form {
+    width: 80%;
+    max-width: 800px;
+    margin:0 auto;
+}
+.input-wrapper {
+    margin: 16px 0;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(184, 38, 79, 0.5);
+    outline: none;
+    font-size: 16px;
+}
+form label {
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.8px;
+}
+form button {
+    background: #ffffff;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #0984e3;
+    color:white;
+    text-decoration: none;
+}
